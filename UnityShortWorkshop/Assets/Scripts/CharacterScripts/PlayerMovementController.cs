@@ -10,9 +10,7 @@ public class PlayerMovementController : MonoBehaviour
     CharacterController _characterController;
     // Start is called before the first frame update
     void Start()
-    {
-        _speedMovement = 1;
-        _speedTurn = 1;
+    { 
         _characterController = GetComponent<CharacterController>();
     }
 
