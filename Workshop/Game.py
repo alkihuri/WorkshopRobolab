@@ -19,10 +19,10 @@ BLUE = (0, 0, 255)
 YELLOW = (255, 255, 0)
 
 # Создаем игру и окно
-pygame.init()
+pygame.init() 
 pygame.mixer.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Shmup!")
+pygame.display.set_caption("Robolab Python Workshop!")
 clock = pygame.time.Clock()
 
 class Player(pygame.sprite.Sprite):
