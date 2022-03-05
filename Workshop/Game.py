@@ -1,14 +1,14 @@
 # Игра Shmup - 4 часть
 # Графика
 import pygame
-import random
+import random 
 from os import path
 
 img_dir = path.join(path.dirname(__file__), 'img')
 
 WIDTH = 480
 HEIGHT = 600
-FPS = 60
+FPS = 15
 
 # Задаем цвета
 WHITE = (255, 255, 255)
